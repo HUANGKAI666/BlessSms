@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.studyjams.s2.sj0147.huangkai.MainActivity"
+    android:orientation="vertical">
+    <cn.studyjams.s2.sj0147.huangkai.View.Menu
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/mWapper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <include
+                layout="@layout/mean_itme"
+                />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+          >
+
+    <!--<android.support.v4.view.ViewPager-->
+        <!--android:id="@+id/pager"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--&gt;-->
+    <!--</android.support.v4.view.ViewPager>-->
+
+
+            <cn.studyjams.s2.sj0147.huangkai.View.ChildViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+            </cn.studyjams.s2.sj0147.huangkai.View.ChildViewPager>
+
+
+    <android.support.design.widget.TabLayout
+    android:id="@+id/tab"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    app:tabGravity="fill"
+    app:tabTextColor="#000000"
+    app:tabMode="fixed"
+    app:tabIndicatorColor="@color/colorAccent"
+    app:tabSelectedTextColor="@color/colorAccent"
+    android:layout_alignParentBottom="true"
+    >
+</android.support.design.widget.TabLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatbutton1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:src="@mipmap/send"
+        android:layout_marginBottom="60dp"
+        app:borderWidth="0dp"
+        app:backgroundTint="@color/cardview_light_background"
+        app:rippleColor="@color/colorAccent"
+        />
+</RelativeLayout>
+
+        </LinearLayout>
+
+    </cn.studyjams.s2.sj0147.huangkai.View.Menu>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "761644058563",
+    "firebase_url": "https://huangkai-e85ca.firebaseio.com",
+    "project_id": "huangkai-e85ca",
+    "storage_bucket": "huangkai-e85ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761644058563:android:3a2354c8ace6e587",
+        "android_client_info": {
+          "package_name": "cn.studyjams.s2.sj0147.huangkai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761644058563-bs18im5kvb2oorvefqarvgiqacu05bge.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cn.studyjams.s2.sj0147.huangkai",
+            "certificate_hash": "d4dc3e06506fd14832f046e3f8e81b85b1272569"
+          }
+        },
+        {
+          "client_id": "761644058563-v9le8aefr9h2gvuv103rt5v8i6n5ls2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxKIRjqmQvlyqSDu8Mu9AfsgqLscAsih4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761644058563-v9le8aefr9h2gvuv103rt5v8i6n5ls2r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

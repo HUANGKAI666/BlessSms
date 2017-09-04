@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.studyjams.s2.sj0147.huangkai.Sendactivity"
+    android:background="@color/primary_light"
+    >
+    <LinearLayout
+        android:id="@+id/id_layout_lin2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/id_et_sen"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textSize="14sp"
+            android:textColor="@color/primary_text"
+            android:textColorHint="@color/secondary_text"
+            android:hint="请输入..."
+
+            />
+        <Button
+            android:id="@+id/id_bt_sen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_itme"
+            android:elevation="10dp"
+            android:text="添加联系人"
+            />
+        <LinearLayout
+            android:id="@+id/id_layout_lin"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+
+            />
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="bottom|center_horizontal"
+        app:borderWidth="0dp"
+        android:src="@mipmap/ic_send_black_18dp"
+        app:backgroundTint="@color/colorAccent"
+        app:rippleColor="@color/primary_light"
+        app:elevation="10dp"
+        app:pressedTranslationZ="20dp"
+
+        />
+
+    <FrameLayout
+        android:id="@+id/id_layout_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:indeterminate="false"
+                android:indeterminateDrawable="@drawable/progressbar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="发送中……" />
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+</FrameLayout>
